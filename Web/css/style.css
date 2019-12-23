@@ -147,6 +147,31 @@ img {
   text-transform: uppercase;
 }
 
+/*Introducao interna*/
+.introducao-interna {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  background-size: cover;
+  text-align: center;
+}
+
+.subtitulo-interna {
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  font-size: 36px;
+}
+
+.subtitulo-interna:after {
+  background: #fff;
+  margin: 6px auto 10px auto;
+}
+
+.introducao-interna p {
+  color: #fff;
+}
+
 /*produtos*/
 .produtos_listas li {
   background: #fec63e;
@@ -300,4 +325,10 @@ img {
   font-size: 14px;
   line-height: 20px;
   font-family: Georgia, "Times New Roman", serif;
+}
+
+.copy {
+  width: 100%;
+  background: #fec63e;
+  padding: 20px 0;
 }
