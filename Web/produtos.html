@@ -122,7 +122,7 @@
     <section class="orcamento">
       <div class="container">
         <h2 class="subtitulo">Orçamento</h2>
-        <form id="form-orcamento" action="">
+        <form class="grid-8 form" id="form-orcamento" action="">
           <label for="nome">Nome</label>
           <input type="text" id="nome" />
           <label for="email">E-mail</label>
@@ -130,8 +130,23 @@
           <label for="telefone">Telefone</label>
           <input type="text" id="telefone" />
           <label for="espec">Especificações</label>
-          <textarea id="espec" cols="30" rows="10"></textarea>
+          <textarea id="espec"></textarea>
+          <button type="submit" class="btn">Enviar</button>
         </form>
+        <div class="grid-8 orcamento-dados">
+          <h3>Dados</h3>
+          <span>+55 21 93223 3232</span>
+          <span class="dados-email">orcamento@bikcraft.com</span>
+          <h3>Monte a sua Bikcraft</h3>
+          <p>Escolha as especificações:</p>
+          <ul>
+            <li>- Cores</li>
+            <li>- Estilo</li>
+            <li>- Medidas</li>
+            <li>- Acessórios</li>
+            <li>- E Outros</li>
+          </ul>
+        </div>
       </div>
     </section>
 
