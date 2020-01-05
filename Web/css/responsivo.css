@@ -22,10 +22,6 @@
 /*Estilo para smartphone*/
 
 @media only screen and (max-width: 787px) {
-  .header_menu ul li a.menu-ativo {
-    color: #fff;
-    border-color: #fff;
-  }
   /*Header*/
   .header {
     position: relative;
@@ -55,6 +51,9 @@
     border-color: #fff;
   }
 
+  .header_menu ul li a.menu-ativo {
+    border-color: #fff;
+  }
   /*Introducao*/
   .introducao h1 {
     font-size: 36px;
@@ -66,6 +65,10 @@
     background: url("../img/bg-mobile.jpg") no-repeat center;
     background-size: cover;
   }
+  /*Introducao interna*/
+  .introducao-interna {
+    margin-top: 0;
+  }
 
   /*Call*/
   .call-to-action {
@@ -75,5 +78,17 @@
   /*Qualidade Home*/
   .qualidade:after {
     display: none;
+  }
+
+  /*Sobre*/
+  .missao-sobre p {
+    padding-right: 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .missao-sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
   }
 }
