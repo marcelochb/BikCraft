@@ -130,4 +130,16 @@
   .produto-info ul li {
     width: 149px;
   }
+
+  .form {
+    padding-right: 0;
+  }
+
+  .orcamento-dados ul {
+    padding-right: 0;
+  }
+  /*Contato*/
+  .contato-form {
+    padding-right: 0;
+  }
 }
