@@ -104,12 +104,7 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="##FEC63E" />
 
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/grid.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/produtos.css" />
-    <link rel="stylesheet" href="css/responsivo.css" />
     <script>
       document.documentElement.classList.add("js");
     </script>
@@ -154,7 +149,7 @@
         <h2>Passeio</h2>
       </div>
       <div class="grid-5 produto-icone">
-        <img src="img/produtos/passeio.svg" alt="" />
+        <img src="img/produtos/passeio.svg" alt="Icone Produto" />
       </div>
       <div class="grid-8">
         <img src="img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft Passeio" />
@@ -180,7 +175,7 @@
         <h2>Esporte</h2>
       </div>
       <div class="grid-5 produto-icone">
-        <img src="img/produtos/esporte.svg" alt="" />
+        <img src="img/produtos/esporte.svg" alt="Icone Esporte" />
       </div>
       <div class="grid-8">
         <img src="img/produtos/bikcraft-esporte-2.jpg" alt="Bikcraft Esporte" />
@@ -206,7 +201,7 @@
         <h2>Retro</h2>
       </div>
       <div class="grid-5 produto-icone">
-        <img src="img/produtos/retro.svg" alt="" />
+        <img src="img/produtos/retro.svg" alt="Icone Retro" />
       </div>
       <div class="grid-8">
         <img src="img/produtos/bikcraft-retro-2.jpg" alt="Bikcraft Retro" />
@@ -229,7 +224,12 @@
     <section class="orcamento">
       <div class="container">
         <h2 class="subtitulo">Orçamento</h2>
-        <form class="grid-8 form formphp" id="form-orcamento" action="">
+        <form
+          class="grid-8 form formphp"
+          id="form-orcamento"
+          action="./enviar-sendgrid.php"
+          method="POST"
+        >
           <label for="nome">Nome</label>
           <input type="text" id="nome" name="nome" required />
           <label for="email">E-mail</label>
@@ -272,7 +272,7 @@
       </div>
     </section>
 
-    <section class="quebra">
+    <div class="quebra">
       <blockquote class="quote-externo container">
         <p>
           "o verdadeiro seguedo da felicidade está em ter um genuíno interesse
@@ -280,7 +280,7 @@
         </p>
         <cite>WILLIAM MORRIS</cite>
       </blockquote>
-    </section>
+    </div>
 
     <footer>
       <div class="footer">
@@ -307,17 +307,26 @@
             <ul>
               <li>
                 <a href="http://facebook.com" target="_blank">
-                  <img src="img/redes-sociais/facebook.svg" />
+                  <img
+                    src="img/redes-sociais/facebook.svg"
+                    alt="Facebook Bikcraf"
+                  />
                 </a>
               </li>
               <li>
                 <a href="http://instagram.com" target="_blank">
-                  <img src="img/redes-sociais/instagram.svg" />
+                  <img
+                    src="img/redes-sociais/instagram.svg"
+                    alt="Instagrm Bikcraft"
+                  />
                 </a>
               </li>
               <li>
                 <a href="http://twitter.com" target="_blank">
-                  <img src="img/redes-sociais/twitter.svg" />
+                  <img
+                    src="img/redes-sociais/twitter.svg"
+                    alt="Twitter Bikcraft"
+                  />
                 </a>
               </li>
             </ul>

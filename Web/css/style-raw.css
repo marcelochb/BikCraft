@@ -1,0 +1,444 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.btn {
+  border: 3px solid #fec63e;
+  padding: 10px 30px;
+  color: #fec63e;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.btn:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn.btn-preto:hover {
+  color: #000;
+  border-color: #000;
+}
+
+.subtitulo {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px auto;
+}
+
+.call-to-action {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+  /* margin-bottom: 60px; */
+}
+
+.call-to-action p {
+  margin-bottom: 20px;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fec63e;
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.header_menu ul li a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #fff;
+}
+
+.header_menu ul li a.menu-ativo {
+  color: #fff;
+}
+/* Introdução */
+
+.introducao {
+  width: 100%;
+  height: 380px;
+  margin-top: 92px;
+  text-align: center;
+  background: url("../img/bg.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 80px;
+}
+
+.introducao h1 {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 48px;
+  /* line- height: 60px; */
+}
+
+.quote-externo {
+  max-width: 290px;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.quote-externo p {
+  font-style: italic;
+}
+
+.quote-externo p::before,
+.quote-externo p::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 14px auto 10px auto;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/*Introducao interna*/
+.introducao-interna {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  background-size: cover;
+  text-align: center;
+}
+
+.subtitulo-introducao {
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  font-size: 36px;
+}
+
+.subtitulo-introducao:after {
+  background: #fff;
+  margin: 6px auto 10px auto;
+}
+
+.introducao-interna p {
+  color: #fff;
+}
+
+.subtitulo-interno {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px 0;
+}
+
+/*produtos*/
+.produtos {
+  padding: 40px 0;
+}
+
+.produtos_listas li {
+  background: #fec63e;
+  text-align: center;
+}
+
+.produtos_listas li img {
+  margin: 0 auto;
+}
+
+.produtos_listas li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px;
+  letter-spacing: 0.1em;
+}
+
+.produtos_listas li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 2px auto;
+}
+
+.produtos_listas li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.produtos_icone {
+  background: #000;
+  padding: 20px;
+}
+
+/*Portifólio*/
+
+.portifolio {
+  width: 100%;
+  background: #000;
+  padding: 40px 0;
+}
+
+.portifolio .container .subtitulo {
+  color: #fec63e;
+}
+
+.portifolio .container .subtitulo:after {
+  background: #fec63e;
+}
+
+.portifolio-lista li:last-child {
+  margin-top: 20px;
+}
+
+.portifolio .container .call-to-action p {
+  color: #fff;
+}
+
+/*Qualidade*/
+
+.qualidade {
+  padding: 60px 0 0 0;
+}
+
+.qualidade-lista .subtitulo {
+  margin-top: 43px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.qualidade img {
+  margin: 0 auto;
+}
+
+.qualidade:after {
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 209px;
+  right: 162px;
+  z-index: -1;
+}
+.qualidade-lista {
+  overflow: auto; /*clear fix*/
+  padding-top: 20px;
+}
+.qualidade-lista li {
+  text-align: center;
+  padding: 0 40px;
+}
+
+/* Quebra */
+.quebra {
+  width: 100%;
+  height: 222px;
+  background: url("../img/bg-footer.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 60px;
+}
+
+.quebra .quote-externo {
+  max-width: 400px;
+}
+
+/*Footer*/
+
+.footer {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 20px;
+}
+.footer h3 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #fec63e;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fec63e;
+  margin: 6px 0 12px 0;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer_redes ul li a {
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 10px;
+}
+
+.footer_redes ul li a:hover {
+  border-color: #fff;
+}
+
+.footer_historia {
+  padding-right: 60px;
+}
+
+.footer_contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.copy {
+  width: 100%;
+  background: #fec63e;
+  padding: 20px 0;
+}
+/*JavaScript*/
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  padding: 0;
+  border-radius: 6px;
+  text-indent: -99px;
+  overflow: hidden;
+  background: #1d1d1d;
+}
+
+.js [data-slide-nav] button.active {
+  text-decoration: none;
+}
+
+/* 6 Adicione o CSS Essêncial abaixo */
+.js [data-anime] {
+  opacity: 0;
+}
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
+}
+
+/* 7 CSS personalizado dependendo da animação desejada */
+.fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.fadeInUp {
+  transform: translate3d(0, 20px, 0);
+}
+.fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+.fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}
+
+.nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0;
+}
+
+#form-sucesso {
+  color: #31aa39;
+}
+
+#form-erro {
+  color: #f64540;
+}
