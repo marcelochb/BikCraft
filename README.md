@@ -1,13 +1,30 @@
 # Origamid
-## Curso de Web Design Completo - BikCraft
+## Web Design Completo - [BikCraft](https://bikcraftweb.netlify.com)
 
-Este curso é para quem deseja entrar ou já está no mercado de criação de websites. Se você é um iniciante terá a oportunidade de aprender do zero e para os que já trabalham com web design/front end é uma boa oportunidade para se atualizar/aprender uma abordagem diferente.
+### Projeto desenvolvido:
+* Arquitetura da Informação;
+* Briefing;
+* Wireframe (Adobe XD);
+* Design (Adobe XD);
+* Codigo (Html, css - responsivo, JavaScript);
+* [Hospedagem](https://bikcraftweb.netlify.com) (Netlify);
+* Analises (Google Analitics);
 
-Eu foco na teoria + prática, assim você aprende os fundamentos por trás de cada decisão de design ou código. E após isso você implementa em um projeto real — bikcraft.com. Você já sai do curso com um primeiro site profissional construído.
 
-- 80 Aulas em HD
-- 22 Horas de Vídeo
-- Certificado de Conclusão
-- Suporte para Dúvidas
-- Projetos Reais na Prática
-- Sem Pré-Requisitos
+## Wireframe
+
+![](https://i.imgur.com/wKpueMV.png)
+
+## Design
+
+![](https://i.imgur.com/as5AF1I.png)
+
+## Tablet
+
+![](https://i.imgur.com/EXdgp0h.jpg)
+
+## Mobile
+
+![](https://i.imgur.com/bjzp7Zo.jpg)
+
+
